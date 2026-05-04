@@ -1,0 +1,63 @@
+apiVersion: v1
+entries:
+  aws-eks-asg-rolling-update-handler:
+  - apiVersion: v2
+    created: "2026-05-04T23:48:26.010034058Z"
+    description: Handles rolling upgrades for AWS ASGs for EKS by replacing outdated
+      nodes by new nodes.
+    digest: feca03b24a5df8bae45a4e40f825394d334bedab1990272200a0351e27d754e5
+    home: https://github.com/TwiN/aws-eks-asg-rolling-update-handler
+    maintainers:
+    - name: TwiN
+    name: aws-eks-asg-rolling-update-handler
+    urls:
+    - https://github.com/markafarrell/gatus-helm-charts/releases/download/aws-eks-asg-rolling-update-handler-1.5.0/aws-eks-asg-rolling-update-handler-1.5.0.tgz
+    version: 1.5.0
+  gatus:
+  - apiVersion: v2
+    appVersion: v5.34.0
+    created: "2026-05-04T23:48:26.145881252Z"
+    description: Automated service health dashboard
+    digest: 7706bb5ccfb8a3b7e92e4fc8721ec695ce0187a45f9d658807d01a63fda0928d
+    home: https://github.com/TwiN/gatus
+    icon: https://raw.githubusercontent.com/TwiN/gatus/a1c8422c2ff2b9d0a6f184c99e4dc728d3f2cd75/web/static/logo-192x192.png
+    keywords:
+    - gatus
+    - healthcheck
+    - uptime
+    - monitoring
+    maintainers:
+    - name: TwiN
+    name: gatus
+    sources:
+    - https://github.com/TwiN/helm-charts
+    - https://github.com/TwiN/gatus
+    type: application
+    urls:
+    - https://github.com/markafarrell/gatus-helm-charts/releases/download/gatus-1.5.0/gatus-1.5.0.tgz
+    version: 1.5.0
+  k8s-ttl-controller:
+  - apiVersion: v2
+    created: "2026-05-04T23:48:26.289435462Z"
+    description: Annotation-based TTL controller for Kubernetes
+    digest: aecf11bedbba59a8b5ab1f24783cc88bf078b027c45152087c7fa7b1f3c4b67f
+    home: https://github.com/TwiN/k8s-ttl-controller
+    maintainers:
+    - name: TwiN
+    name: k8s-ttl-controller
+    urls:
+    - https://github.com/markafarrell/gatus-helm-charts/releases/download/k8s-ttl-controller-0.4.0/k8s-ttl-controller-0.4.0.tgz
+    version: 0.4.0
+  lighthouse:
+  - apiVersion: v2
+    created: "2026-05-04T23:48:26.443253453Z"
+    description: Standalone monitoring system for your Kubernetes cluster
+    digest: 496ddaacef95b9fa9ff89c21a9656d8fa5470a6f90aa966d249117e2bbb85eee
+    home: https://github.com/TwiN/lighthouse
+    maintainers:
+    - name: TwiN
+    name: lighthouse
+    urls:
+    - https://github.com/markafarrell/gatus-helm-charts/releases/download/lighthouse-1.0.2/lighthouse-1.0.2.tgz
+    version: 1.0.2
+generated: "2026-05-04T23:48:26.443259544Z"
